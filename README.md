@@ -5,9 +5,6 @@ This project is part of the Udacity Azure ML Nanodegree.
 In this project, we build and optimize an Azure ML pipeline using the Python SDK and a provided Scikit-learn model.
 This model is then compared to an Azure AutoML run.
 
-usage: ipykernel_launcher.py [-h] [--C C] [--max_iter MAX_ITER]
-ipykernel_launcher.py: error: unrecognized arguments: -f /home/azureuser/.local/share/jupyter/runtime/kernel-93cd22e4-bcf9-417a-a9bb-7ee1464ed426.json
-An exception has occurred, use %tb to see the full traceback.
 
 ## Summary
 **In 1-2 sentences, explain the problem statement: e.g "This dataset contains data about... we seek to predict..."**
