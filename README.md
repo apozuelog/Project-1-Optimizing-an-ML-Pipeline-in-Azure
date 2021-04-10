@@ -5,25 +5,18 @@ This project is part of the Udacity Azure ML Nanodegree.
 In this project, we build and optimize an Azure ML pipeline using the Python SDK and a provided Scikit-learn model.
 This model is then compared to an Azure AutoML run.
 
-Increase the number of iterations (max_iter) or scale the data as shown in:
-    https://scikit-learn.org/stable/modules/preprocessing.html
-Please also refer to the documentation for alternative solver options:
-    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-  n_iter_i = _check_optimize_result(
-Attempted to log scalar metric Accuracy:
-0.9116843702579667
-azureuser@project1:~/cloudfiles/code/Users/odl_user_141299$ 
-
-
 ## Summary
-**In 1-2 sentences, explain the problem statement: e.g "This dataset contains data about... we seek to predict..."**
+In this first project, we are asked to determine if a client will make a fixed-term deposit or not ("y" label).
 
-**In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
+The highest precision we got was **0.91** after running a sk-learn model
 
 ## Scikit-learn Pipeline
-**Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
+Pipeline:
+1. create an instance and launch a VM 'STANDARD_D2_V2' according to project specifications.
+2. Once the VM is running, we run a jupyter notebook to access the workspace, create an experiment and run a cluster or create it if it does not exist.
 
 **What are the benefits of the parameter sampler you chose?**
+
 
 **What are the benefits of the early stopping policy you chose?**
 
