@@ -27,12 +27,13 @@ BanditPolicy is used for an "hot stop".
 Voting Ensemble was the model that generated the best performance with a 0.91
 
 ## Pipeline comparison
-**Compare the two models and their performance. What are the differences in accuracy? In architecture? If there was a difference, why do you think there was one?**
+**Compare the two models and their performance.**
+Both Hyperdrive and AutoML obtained an accuracy of about 0.91.
+
+**What are the differences in accuracy?**
+As I mentioned before, I chose the random parameter sampling so, in case of poor performance or error, an early stop can be made.
 
 ## Future work
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
 Obviously I need to experiment with both autoML, scikit-learn or other ML libraries. These are being the first approaches that I make to ML libraries through Azure, so in the future I need to practice this topic more.
 
-## Proof of cluster clean up
-**If you did not delete your compute cluster in the code, please complete this section. Otherwise, delete this section.**
-**Image of cluster marked for deletion**
